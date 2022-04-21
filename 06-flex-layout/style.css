@@ -1,0 +1,75 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+}
+
+img {
+    width: 600px;
+
+}
+
+button {
+    font-family: Robot, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background-color: #eee;
+}
+
+input{
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 8px 24px;
+    width: 400px;
+    margin-bottom: 16px;
+}
+
+ul {
+    /* remove bullets from ul lists */
+    list-style-type: none; 
+  }
+  
+  a {
+    /* this removes the line under our links */
+    text-decoration: none; 
+  }
+
+  .header {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+  }
+
+  .footer {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      background-color: #eeeeee;
+
+      /* footer is at the bottom */
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      align-items: center;
+  }
+
+  .left-links {
+      display: flex;
+      gap: 20px;
+
+  }
+
+  .right-links{
+      display: flex;
+      gap: 20px; 
+  }
+
+  .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  

@@ -1,0 +1,23 @@
+.container {
+    background-color: dodgerblue;
+    border: 4px solid midnightblue;
+    width: 400px;
+    height: 300px;
+
+}
+
+.box {
+    background-color: palevioletred;
+    font-weight: bold;
+    text-align: center;
+    border: 6px solid maroon;
+    width: 80px;
+    height: 80px;
+}
+
+/* To center this div */
+.container {
+    display: flex;
+    justify-content: center; /* main axis */
+    align-items: center; /* cross axis */
+}
